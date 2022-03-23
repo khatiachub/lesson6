@@ -67,6 +67,6 @@
     height: 200px;
 }
 @keyframes sandymove{
-    0%{right:300px;}
-    100%{right:500px;}
+    0%{right:300px;transform: scale(0,0);}
+    100%{right:500px; transform: scale(1,2);}
 }
