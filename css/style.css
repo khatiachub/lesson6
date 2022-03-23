@@ -1,0 +1,72 @@
+.background{
+    width: 100%px;
+    position: relative;
+    
+}
+.absolute{
+    position: absolute;
+    width: 200px;
+    bottom: 30px;
+    left: 40px;
+    animation: spongemove 3s infinite ease alternate;
+    z-index: 10;
+}
+.spongebob{
+    width: 200px;
+    height: 200px;
+}
+.imgdiv{
+    width: 100%;
+    height: 100%;
+}
+
+
+@keyframes spongemove {
+    from {top: 0px; transform: }
+    to {top: 450px;}
+  }
+
+.patrick{
+    position: absolute;
+    right: 600px;
+    bottom: 30px;
+    animation: patmove 2s infinite alternate linear;
+    z-index: 15;
+}
+.imgpat{
+    width: 200px;
+    height: 200px;
+}
+@keyframes patmove {
+    0%   {right: 600px;}
+    100% {right: 610px; transform: rotate(10deg);}
+}
+.squit{
+    position: absolute;
+    left: 300px;
+    bottom:30px;
+    animation: squitmove 3s infinite normal linear;
+}
+.imgsquit{
+    width: 200px;
+    height: 200px;
+}
+@keyframes squitmove{
+    0%{left:300px;}
+    100%{left:40px;}
+}
+.sandy{
+    position: absolute;
+    right: 150px;
+    bottom: 30px;
+    animation: sandymove 3s infinite linear normal;
+ 
+}
+.imgsandy{
+    width: 200px;
+    height: 200px;
+}
+@keyframes sandymove{
+    0%{right:300px;}
+    100%{right:500px;}
+}
